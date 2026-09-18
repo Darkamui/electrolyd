@@ -1,0 +1,13 @@
+# Build output. 156 MB of renders, videos, .blend, .glb and the embedded
+# viewer page, accumulated across every phase. All of it regenerates from
+# source -- see AGENTS.md section 6.
+out/
+
+# Python bytecode. Blender 5.2 ships 3.13 and the system interpreter is 3.14,
+# so both get written here.
+__pycache__/
+*.py[cod]
+
+# Blender backups
+*.blend1
+*.blend2
